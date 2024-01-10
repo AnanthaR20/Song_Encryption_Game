@@ -3,7 +3,7 @@ import os
 import numpy as np
 from mingus.containers import Note, NoteContainer,Track,Bar
 from mingus.midi import fluidsynth as fs
-fs.init("sound_fonts/FluidR3_GM.SF2")
+fs.init("sound_fonts/FluidR3_GM.sf2")
 m_space = os.listdir("songs")
 
 # Start of utility functions
